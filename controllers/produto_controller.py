@@ -85,7 +85,7 @@ class ProdutoController:
             registros = cursor.fetchall()
 
             for Produto in registros:
-             objeto = Produto(*Produto)
+                objeto = Produto(*Produto)
             listaProduto.append()
         
             
